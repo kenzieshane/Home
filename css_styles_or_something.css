@@ -1,0 +1,33 @@
+		p {
+  		color: #000000;
+  		font-family: "Open Sans";
+		background-image: linear-gradient(to bottom right, white, #c5defc);
+		}
+		h1 {
+  		color: #000000;
+  		font-family: "Open Sans";
+		background-image: linear-gradient(to bottom right, white, #c5defc);
+		}
+		body {
+  		color: #000000;
+  		font-family: "Open Sans";
+		background-image: linear-gradient(to bottom right, white, #c5defc);
+		}
+		div {
+  		color: #FFFFFF
+		background-image: linear-gradient(to bottom, black, blue);
+		}
+		a {
+  		color: #000000;
+  		font-family: "Open Sans";
+		}
+		
+		inactive {
+		text-decoration: none;
+		font-family: "Open Sans"
+		}
+		
+		active {
+  		color: #000000;
+  		font-family: "Open Sans";
+		}
