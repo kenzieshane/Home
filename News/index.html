@@ -1,5 +1,11 @@
 <head>
-<meta name="viewport" >
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<meta name="viewport" >
 <meta content="width=device-width, initial-scale=1.0">
 <meta content="text/html">
 <meta charset="UTF-8">
@@ -10,23 +16,36 @@
             href="../Images/1722594016676.jpg"
             type="image/x-icon" >
 
-	<div style="font-size:15" class="Papan_navigasi_atas">
-<inactive style="font-size: 36px"><a href="../Projects/index.html">Projects</a></inactive>
-<inactive href=# style="font-size: 36px">&nbsp;&nbsp;&nbsp</inactive>
-  <inactive style="font-size: 36px"><a href="../index.html">Home<a></inactive>
-  <inactive href=# style="font-size: 36px">&nbsp;&nbsp;&nbsp</inactive>
-		<active style="font-size: 36px">News</active>
-<inactive href=# style="font-size: 36px">&nbsp;&nbsp;&nbsp</inactive>
-		<inactive><a style="font-size: 36px" href="../About/index.html">About<a></inactive>
-	</div>
+			<div class="Papan_navigasi_atas">
+				<a class=inactive href="../Projects/index.html">Projects</a>
+				<a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a>
+				<a class=inactive href="../index.html">Home</a>
+				<a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a>
+				<a class=active href=#>News</a>
+				<a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a>
+				<a class=inactive href="../About/index.html">About</a>
+			</div>
 		
-	<p style="font-size:60;">NEWS</p>
-	<h1>NEWS regarding my projects and stuff.</h1>
-
+	<h1>NEWS</h1>
+	<h1 style="font-size:20;">NEWS regarding my projects and stuff.</h1>
 </head>
-<body bgcolor="#00000">
-	<p style="font-size:20;"> visit my whatsapp channel too to get information more quickly. <a href="https://whatsapp.com/channel/0029VajX3m1Dp2QFiJfT0C0r"> click me! </a> </p>
+<body>
+	<hr>
+	<a class="Button" onclick="darkmode()">dark/light mode</a>
+	
+	<script>
+		function darkmode() 
+		{
+			var element = document.body; element.classList.toggle("dark");
 
-
+		}
+	</script>
+	<hr>
+	<div>
+		<p class="code">(Saturday, August 10, 16:29) Updated some of the website aspect and added some project prototypes.</p>
+	</div>
+	<hr>
+	<p> visit my whatsapp channel too to get information more quickly. <a href="https://whatsapp.com/channel/0029VajX3m1Dp2QFiJfT0C0r"> click me! </a> </p>
+	<hr>
 
 </body>

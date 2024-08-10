@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>
+   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="../../css_styles_or_something.css">
 	<meta name="viewport">
 	<meta content="width=device-width, initial-scale=1.0";"text/html";>
@@ -14,21 +20,30 @@
 
         <title style="font-family:Arial">TapDash (Legend Of Dash Classic)</title>
 		
-	<div style="font-size:15" class="Papan_navigasi_atas">
-	<active style="font-size: 36px">Projects</inactive>
-<inactive href=# style="font-size: 36px">&nbsp;&nbsp;&nbsp</inactive>
-  <inactive style="font-size: 36px"><a href="../../index.html">Home<a></inactive>
-  <inactive href=# style="font-size: 36px">&nbsp;&nbsp;&nbsp</inactive>
-		<inactive style="font-size: 36px"><a href="../News/index.html">News</a></inactive>
-<inactive href=# style="font-size: 36px">&nbsp;&nbsp;&nbsp</inactive>
-		<inactive style="font-size: 36px"> <a href="../About/index.html">About</a></inactive>
-	</div>
+        <div class="Papan_navigasi_atas">
+            <a class=inactive href="../../Projects/index.html">Projects</a>
+            <a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a>
+            <a class=inactive href="../../index.html">Home</a>
+            <a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a>
+            <a class=inactive href="../../News/index.html">News</a>
+            <a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a>
+            <a class=inactive href="../../About/index.html">About</a>
+        </div>
     </head>
     <body>
+        <a class="Button" onclick="darkmode()">dark/light mode</a>
+	
+	<script>
+		function darkmode() 
+		{
+			var element = document.body; element.classList.toggle("dark");
 
-        <h1 style="font-family:Arial">What is TapDash (Legend of Dash Classic)?</h1>
-        <p style="font-family:Arial">Tapdash (Legend of dash classic) is the classic version of Legend Of Dash 3 by Steveindoplayscratch that is based on SteveIndoPlayScratch's Legend Of Dash 2.</p>
-	<p style="font-family:Arial"> Legend of Dash 2 engine is far different than the Legend of Dash 3's. Legend of dash 3 is a more refined and up to date version with many improvements and new feature. Legend of Dash 2 is no longer maintained by SteveIndoPlayScratch anymore, so now, I, as his cousin, is continuing his project to what it is known today. Btw, Legend of Dash is inspired from Tomb Of The Mask and Geometry Dash<p>
-        <a style="font-family:Arial" href="Project/index.html">Play the game using this link!</a>
+		}
+        </script>
+
+        <h1>What is TapDash (Legend of Dash Classic)?</h1>
+        <p>Tapdash (Legend of dash classic) is the classic version of Legend Of Dash 3 by Steveindoplayscratch that is based on SteveIndoPlayScratch's Legend Of Dash 2.</p>
+	<p> Legend of Dash 2 engine is far different than the Legend of Dash 3's. Legend of dash 3 is a more refined and up to date version with many improvements and new feature. Legend of Dash 2 is no longer maintained by SteveIndoPlayScratch anymore, so now, I, as his cousin, is continuing his project to what it is known today. Btw, Legend of Dash is inspired from Tomb Of The Mask and Geometry Dash<p>
+        <a href="../Projects/Tapdash/Game/index.html">Play the game using this link!</a>
     </body>
 </html>
