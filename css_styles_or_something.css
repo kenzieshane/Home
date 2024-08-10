@@ -1,33 +1,46 @@
-		p {
-  		color: #000000;
-  		font-family: "Open Sans";
-		background-image: linear-gradient(to bottom right, white, #c5defc);
-		}
-		h1 {
-  		color: #000000;
-  		font-family: "Open Sans";
-		background-image: linear-gradient(to bottom right, white, #c5defc);
-		}
 		body {
-  		color: #000000;
+			background-image: linear-gradient(to bottom right, white, rgb(180, 209, 248));
+		}
+		
+		p {
   		font-family: "Open Sans";
-		background-image: linear-gradient(to bottom right, white, #c5defc);
+		  font-size:12px;
 		}
+		
+		h1 {
+  		font-family: "Open Sans";
+		font-size:30px;
+		}
+
 		div {
-  		color: #FFFFFF
-		background-image: linear-gradient(to bottom, black, blue);
+  		color: #FFFFFF;
 		}
+
 		a {
   		color: #000000;
   		font-family: "Open Sans";
 		}
 		
-		inactive {
+		.inactive {
 		text-decoration: none;
-		font-family: "Open Sans"
+		font-family: "Pixelify Sans";
+		font-size: 36px;
+		color:#FFFFFF
 		}
 		
-		active {
+		.active {
+		text-decoration: none;
   		color: #808080;
-  		font-family: "Open Sans";
+  		font-size: 36px;
+		font-family: "Pixelify Sans";
+		}
+
+		.Papan_navigasi_atas
+		{
+		background-image: linear-gradient(to right, rgb(72, 72, 255), rgb(115, 151, 250));
+		}
+
+		.dark {
+			color: white;
+			background-image: linear-gradient(to bottom right, black, blue);
 		}
