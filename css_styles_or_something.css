@@ -99,3 +99,8 @@
 		{
 			display: flex;
 		}
+
+		.list
+		{
+			font-size: 100%;
+		}
