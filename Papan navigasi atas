@@ -17,12 +17,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-<a class="Button" onclick="darkmode()">dark/light mode</a>
+	<a class="Button" onclick="darkmode()">dark/light mode</a>
 	
-	<script>
-		function darkmode() 
-		{
-			var element = document.body; element.classList.toggle("dark");
-
-		}
-	</script>
+	<script src="totally_legit_scripts.js"></script>
