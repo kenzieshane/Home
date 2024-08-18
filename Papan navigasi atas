@@ -6,6 +6,9 @@
 		<a class=inactive href="../News/index.html">News</a>
 		<a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a>
 		<a class=inactive href="../About/index.html">About</a>
+		<a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a class=inactive>
+		<a class="inactive" href=# onclick="darkmode()">dark/light mode</a> 
+		<script src="totally_legit_scripts.js"></script>
 	</div>
 
 	<link rel="stylesheet" href="../css_styles_or_something.css">
