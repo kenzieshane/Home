@@ -16,6 +16,7 @@
 		a {
   		color: #000000;
   		font-family: "Open Sans";
+		background-color: #dfdfdf;
 		}
 		
 		.inactive {
@@ -39,7 +40,7 @@
 
 		.dark {
 			color: white;
-			background-image: linear-gradient(to bottom right, black, blue);
+			background-image: url("Images/bg_dark.png")
 		}
 		
 		.box_of_images
