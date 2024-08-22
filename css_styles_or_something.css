@@ -21,23 +21,20 @@
 		.inactive {
 		text-decoration: none;
 		font-family: "Pixelify Sans";
-		font-size: 30px;
+		font-size: 350%;
 		color:#FFFFFF
 		}
 		
 		.active {
 		text-decoration: none;
   		color: #808080;
-  		font-size: 35px;
+  		font-size: 350%;
 		font-family: "Pixelify Sans";
 		}
 
 		.Papan_navigasi_atas
 		{
 		background-image: linear-gradient(to right, rgb(72, 72, 255), rgb(115, 151, 250));
-		min-height: 5%;
-		max-height: 10%;
-		width: 120%;
 		}
 
 		.dark {
