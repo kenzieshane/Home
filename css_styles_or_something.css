@@ -1,10 +1,11 @@
 		body {
-			background-image: linear-gradient(to bottom right, white, rgb(180, 209, 248));
+			background-image: url("Images/bg.png");
 		}
 		
 		p {
   		font-family: "Open Sans";
-		  font-size:30;
+		  font-size: 30px;
+		  word-wrap: break-word;
 		}
 		
 		h1 {
@@ -20,20 +21,23 @@
 		.inactive {
 		text-decoration: none;
 		font-family: "Pixelify Sans";
-		font-size: 50px;
+		font-size: 30px;
 		color:#FFFFFF
 		}
 		
 		.active {
 		text-decoration: none;
   		color: #808080;
-  		font-size: 50px;
+  		font-size: 35px;
 		font-family: "Pixelify Sans";
 		}
 
 		.Papan_navigasi_atas
 		{
 		background-image: linear-gradient(to right, rgb(72, 72, 255), rgb(115, 151, 250));
+		min-height: 5%;
+		max-height: 10%;
+		width: 120%;
 		}
 
 		.dark {
@@ -163,12 +167,28 @@
   height: 10%;
 }
 
-	.2center {
-  margin: auto;
-  style=text-align:center;
-  width: 50%;
+	.centerx {
+	margin:auto;
+  	text-align:center;
+  	width:50%
 }
 
 	.li {
 		color:#101010;
+	}
+
+	.np {
+		font-family: "Open Sans";
+		text-align: center;
+	}
+	summary {
+		font-family: "Open Sans";
+		font-size:30;
+		text-align: center;
+	}
+
+	details {
+		font-family: "Open Sans";
+		font-size:20;
+		text-align: center;
 	}

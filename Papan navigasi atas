@@ -28,3 +28,46 @@
   <li><a href="#"></a></li>
   <li><a href="#"></a></li>
   <li><a href="#"></a></li>
+
+  <ul id="WebsiteList">
+  <li><a href="#">404</a></li>
+  
+  <li><a href="#">About</a></li>
+
+  <li><a href="#">Blogs</a></li>
+  <li><a href="#">homepage</a></li>
+
+  <li><a href="#">Images/0.png</a></li>
+  <li><a href="#">Images/1722594016676.jpg</a></li>
+  <li><a href="#">Images/index.html</a></li>
+  <li><a href="#">Images/K.png</a></li>
+  <li><a href="#">Images/KS.png</a></li>
+  <li><a href="#">index</a></li>
+  
+  <li><a href="#">Licenses/OFL Open Sans</a></li>
+  <li><a href="#">Licenses/OFLOS</a></li>
+  <li><a href="#">Licenses/OFLPS</a></li>
+  
+  <li><a href="#">News</a></li>
+ 
+ <li><a href="#">Papan navigasi atas</a></li>
+  <li><a href="#">Projects/1-2-1</a></li>
+  <li><a href="#">Projects/HANGMAN</a></li>
+  <li><a href="#">Projects/KSOS</a></li>
+  <li><a href="#">Projects/KSOS/Horizontal</a></li>
+  <li><a href="#">Projects/KSOS/Vertikal</a></li>
+  <li><a href="#">Projects/Logical Operation</a></li>
+  <li><a href="#">Projects/rockpaperscissors</a></li>
+  <li><a href="#">Projects/TapDash</a></li>
+  <li><a href="#">Projects/TapDash/Game</a></li>
+  <li><a href="#">Projects/TapDash/Images/logo.png</a></li>
+  <li><a href="#">Projects/Tatreue</a></li>
+  
+  <li><a href="#">Readme.md</a></li>
+  
+  <li><a href="#">totally_legit_scripts.json</a></li>
+  
+</ul>
+
+<input style="text-align:center; height: 60px; width: 50%; font-size: 150%" class=center type="text" id="input-bar" onkeyup="KSSearchFunction()" placeholder="Search for project names..">
+background-image: linear-gradient(to bottom right, white, rgb(180, 209, 248));
