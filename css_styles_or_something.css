@@ -1,5 +1,5 @@
 		body {
-			background-image: url("/Images/bg.png");
+			background-image: url("https://kenzieshane.github.io/Home/Images/bg.png");
 		}
 		
 		p {
@@ -39,7 +39,7 @@
 
 		.dark {
 			color: white;
-			background-image: url("/Images/bg_dark.png")
+			background-image: url("https://kenzieshane.github.io/Home/Images/bg_dark.png")
 		}
 		
 		.box_of_images
