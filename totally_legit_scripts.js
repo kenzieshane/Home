@@ -26,3 +26,6 @@ function KSSearchFunction() {
     }
   }
 }
+
+function ok()
+{}

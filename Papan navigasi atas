@@ -75,3 +75,53 @@ background-image: linear-gradient(to bottom right, white, rgb(180, 209, 248));
 min-height: 5%;
 		max-height: 10%;
 		width: 120%;
+
+    <div class="box_of_images">
+			<p>&nbsp</p>
+			<img src="Projects/Tapdash/Images/logo.png" width="20%" alt="TapDash Logo">
+			<p class="pixel">TapDash, a project made by me and SteveIndoPLayScratch</p>
+			<a class=Buuton href="Projects/Tapdash/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div>
+		
+		<div class="box_of_images">
+			<p>&nbsp</p>
+			<img class="center" src="Projects/KSOS/Images/ksos.png" width="75%" alt="KSOS Logo">
+			<p class="pixel">KSOS, a collection of my mini projects!</p>
+			<a class=Button href="Projects/KSOS/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div>
+	
+		<div class="box_of_images">
+			<p>&nbsp</p>
+			<img class="center" src="Images/K.png" width="75%" alt="HANGMAN Logo">
+			<p class="pixel">HANGMAN, try to guess the word (HANGMAN, Coba tebak kata juga tersedia dalam bahasa Indonesia.)</p>
+			<a class=Button href="Projects/HANGMAN/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div>
+	
+		<div class="box_of_images">
+			<p>&nbsp</p>
+			<img class="center" src="Images/KS.png" width="75%" alt="RPS Logo">
+			<p class="pixel">RPS, Rock Paper Scissors against bot! (with "cool" graphics)</p>
+			<a class=Button href="Projects/rockpaperscissors/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div>
+	
+		<div class="box_of_images">
+			<p>&nbsp</p>
+			<img class="center" src="Images/0.png" width="75%" alt="1-2-1 logo">
+			<p class="pixel">1-2-1, Your average Tic Tac Toe game!</p>
+			<a class=Button href="Projects/1-2-1/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div>
+		
+		<div class="box_of_images">
+			<p>&nbsp</p>
+			<img class="center" width="75%" alt="maze-i-guess logo">
+			<p class="pixel">Maze, i guess...will be updated with more levels and stuff if I feel like it.</p>
+			<a class=Button href="Projects/Maze-i-guess/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div> </details>
+
+</body>
