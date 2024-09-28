@@ -30,6 +30,14 @@
     <p style="font-size:50px">&nbsp</p>
 </div>
 		<style>
+.moretitle { font-family: "Open Sans";
+			font-size:200%;
+			position: relative;
+			top:20px;
+			text-align:center;
+			justify-content:center;
+			font-weight: bold;
+			}
 			body { line-height:115%; font-family:Arial; font-size:11pt }
 			h1, h2, h3, h4, h5, h6, p { margin:0pt 0pt 10pt }
 			li { margin-top:0pt; margin-bottom:10pt }
@@ -104,6 +112,158 @@ td, th {
 }
 }	
 
+		.Button {
+			position: absolute;
+	top: 10px;
+	left: 10px;
+  font-family:"Open Sans";
+  font-size:50px;
+  border-radius: 6px;
+  border: none;
+  width: max-content;
+  height:70px;
+  text-decoration:none;
+  text-align:center;
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Buuton {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	font-family:"Open Sans";
+	font-size:50px;
+	border-radius: 6px;
+	border: none;
+	width: max-content;
+	height:70px;
+	text-decoration:none;
+	text-align:center;
+	color: #fff;
+	background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+	 background-origin: border-box;
+	box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+  }
+
+.button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+		
+		.Button:hover {
+			background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+			background-color:#dfdfdf;
+		}
+
+.Buttonleft
+ {			position:absolute;
+            top: 10px;
+            right: 10px;
+			 display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:auto;
+  font-family:"Open Sans";
+  font-size:50px;
+  border-radius: 6px;
+  border: none;
+  width: max-content;
+  height:70px;
+  text-decoration:none;
+  text-align:center;
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Buttonleft:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+		.Buttonleft:hover {
+			background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+			background-color:#dfdfdf;
+		}
+		
+		.flex
+		{
+			display: flex;
+		}
+
+		.list
+		{
+			font-size: 100%;
+		}
+
+		.code
+		{
+			font-family: monospace;
+		}
+
+
+		
+		.scrolling-thing {
+
+		border: 3px solid black;
+		border-radius: 5px;
+		overflow: hidden;
+	  }
+	  
+	  .scroll-text {
+		/* animation properties */
+		-moz-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+		
+		-moz-animation: my-animation 15s linear infinite;
+		-webkit-animation: my-animation 15s linear infinite;
+		animation: my-animation 15s linear infinite;
+	  }
+	  
+	  /* for Firefox */
+	  @-moz-keyframes my-animation {
+		from { -moz-transform: translateX(100%); }
+		to { -moz-transform: translateX(-100%); }
+	  }
+	  
+	  /* for Chrome */
+	  @-webkit-keyframes my-animation {
+		from { -webkit-transform: translateX(100%); }
+		to { -webkit-transform: translateX(-100%); }
+	  }
+	  
+	  @keyframes my-animation {
+		from {
+		  -moz-transform: translateX(100%);
+		  -webkit-transform: translateX(100%);
+		  transform: translateX(100%);
+		}
+		to {
+		  -moz-transform: translateX(-100%);
+		  -webkit-transform: translateX(-100%);
+		  transform: translateX(-100%);
+		}
+	}
+	
+
+	.centerx {
+	margin:auto;
+  	text-align:center;
+  	width:50%
+}
 
 		</style>
 	</head>
@@ -116,7 +276,7 @@ td, th {
 				Makna Pancasila sebagai dasar negara
 			</h1>
 			<p>
-				(Sumber: Ajaran Ms. Amelia A. S.Sos.)
+				(Sumber: Ajaran Ms. Amelia Apliani S.Sos.)
 			</p>
 			<p>
 				Kedudukan Pancasila sebagai dasar negara diperinci sebagai berikut: 
