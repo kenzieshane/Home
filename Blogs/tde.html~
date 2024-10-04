@@ -1,0 +1,36 @@
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+	<meta name="viewport" >
+<meta content="width=device-width, initial-scale=1.0">
+<meta content="text/html">
+<meta charset="UTF-8">
+
+<TITLE>TDE</TITLE>
+	
+	<link
+            rel="icon"
+            href="../Images/1722594016676.jpg"
+            type="image/x-icon" >
+
+			<p class="moretitle">KS Blogs</p>
+	<a class=Button href="../index.html">&nbspBack&nbsp</a>
+	<a class=Buttonleft href="../navigation.html">&nbspMenu&nbsp</a>
+  <div>
+    <p style="font-size:50px">&nbsp</p>
+</div>
+			
+	<link rel="stylesheet" href="../css_styles_or_something.css">
+</head>
+<body>
+	<h1>journey of installing TDE (Trinity desktop Environment)</h1>
+	<p>&nbsp To quote the <a href=https://www.trinitydesktop.org/> official website </a> itself, <br> <br> &nbsp "The Trinity Desktop Environment (TDE) project is a computer desktop environment for Unix-like operating systems with a primary goal of retaining the function and form of traditional desktop computers [...] The TDE project began as a continuation of the K Desktop Environment (KDE) version 3. The name Trinity was chosen partly because the word means "three" and TDE was a continuation of KDE 3. TDE now is its own computer desktop environment project. The TDE project was founded by Timothy Pearson. Timothy is an experienced and skilled software developer and was the KDE 3.x coordinator of previous Kubuntu releases."</p>
+
+	<h1>The journey</h1>
+	<p>So, I've tried a little bit of different linux distributions... I've installed Fedora, Ubuntu, Linux MInt, KDE NEON and Garuda Linux. <br> <br> I'm currently staying in KDE NEON because I'm just can't be bothered to reinstall the system. <br> <br> I found the default kde plasma desktop environment is really heavy and slow for me. So, I searched in Google of what other Desktop Environments that is lightweight and found two that i thing is neat: <strong>Moksha and TDE</strong> <br> <br> Moksha is okay, but the in my experience the .desktop files that is accessed through the desktop would always ask to select an application to open them... I would use the dolphin file manager for that purpose, which can execute those programs(?)... Executing it through thunar works fine though, it only happened when executing .desktop files through the desktop... weird. So, i went out to use TDE, which suprisingly works very well! /fin</p>
+</body>
