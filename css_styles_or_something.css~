@@ -285,5 +285,5 @@
 				background-color:#dfdfdf;
 			}
 	
-	.block {background:rgba(#ffffff 100%);
+	.block {background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
 	}
