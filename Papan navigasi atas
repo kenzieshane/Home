@@ -1,0 +1,134 @@
+<div class="Papan_navigasi_atas">
+		<a class=inactive href="../Projects/index.html">Projects</a>
+		<a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a>
+		<a class=inactive href="../index.html">Home</a>
+		<a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a>
+		<a class=inactive href="../News/index.html">News</a>
+		<a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a>
+		<a class=inactive href="../About/index.html">About</a>
+		<a class=inactive href=# ">&nbsp;&nbsp;&nbsp</a class=inactive>
+		<a class="inactive" href=# onclick="darkmode()">dark/light mode</a> 
+    <script src="https://kenzieshane.github.io/Home/totally_legit_scripts.js"></script>
+	</div>
+
+	<link rel="stylesheet" href="../css_styles_or_something.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+	<a class="Button" onclick="darkmode()">dark/light mode</a>
+	
+	<script src="totally_legit_scripts.js"></script>
+	
+	<li><a href="#"></a></li>
+  <li><a href="#"></a></li>
+  <li><a href="#"></a></li>
+  <li><a href="#"></a></li>
+
+  <ul id="WebsiteList">
+  <li><a href="#">404</a></li>
+  
+  <li><a href="#">About</a></li>
+
+  <li><a href="#">Blogs</a></li>
+  <li><a href="#">homepage</a></li>
+
+  <li><a href="#">Images/0.png</a></li>
+  <li><a href="#">Images/1722594016676.jpg</a></li>
+  <li><a href="#">Images/index.html</a></li>
+  <li><a href="#">Images/K.png</a></li>
+  <li><a href="#">Images/KS.png</a></li>
+  <li><a href="#">index</a></li>
+  
+  <li><a href="#">Licenses/OFL Open Sans</a></li>
+  <li><a href="#">Licenses/OFLOS</a></li>
+  <li><a href="#">Licenses/OFLPS</a></li>
+  
+  <li><a href="#">News</a></li>
+ 
+ <li><a href="#">Papan navigasi atas</a></li>
+  <li><a href="#">Projects/1-2-1</a></li>
+  <li><a href="#">Projects/HANGMAN</a></li>
+  <li><a href="#">Projects/KSOS</a></li>
+  <li><a href="#">Projects/KSOS/Horizontal</a></li>
+  <li><a href="#">Projects/KSOS/Vertikal</a></li>
+  <li><a href="#">Projects/Logical Operation</a></li>
+  <li><a href="#">Projects/rockpaperscissors</a></li>
+  <li><a href="#">Projects/TapDash</a></li>
+  <li><a href="#">Projects/TapDash/Game</a></li>
+  <li><a href="#">Projects/TapDash/Images/logo.png</a></li>
+  <li><a href="#">Projects/Tatreue</a></li>
+  
+  <li><a href="#">Readme.md</a></li>
+  
+  <li><a href="#">totally_legit_scripts.json</a></li>
+  
+</ul>
+
+<input style="text-align:center; height: 60px; width: 50%; font-size: 150%" class=center type="text" id="input-bar" onkeyup="KSSearchFunction()" placeholder="Search for project names..">
+background-image: linear-gradient(to bottom right, white, rgb(180, 209, 248));
+
+min-height: 5%;
+		max-height: 10%;
+		width: 120%;
+
+    <div class="box_of_images">
+			<p>&nbsp</p>
+			<img src="Projects/Tapdash/Images/logo.png" width="20%" alt="TapDash Logo">
+			<p class="pixel">TapDash, a project made by me and SteveIndoPLayScratch</p>
+			<a class=Buuton href="Projects/Tapdash/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div>
+		
+		<div class="box_of_images">
+			<p>&nbsp</p>
+			<img class="center" src="Projects/KSOS/Images/ksos.png" width="75%" alt="KSOS Logo">
+			<p class="pixel">KSOS, a collection of my mini projects!</p>
+			<a class=Button href="Projects/KSOS/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div>
+	
+		<div class="box_of_images">
+			<p>&nbsp</p>
+			<img class="center" src="Images/K.png" width="75%" alt="HANGMAN Logo">
+			<p class="pixel">HANGMAN, try to guess the word (HANGMAN, Coba tebak kata juga tersedia dalam bahasa Indonesia.)</p>
+			<a class=Button href="Projects/HANGMAN/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div>
+	
+		<div class="box_of_images">
+			<p>&nbsp</p>
+			<img class="center" src="Images/KS.png" width="75%" alt="RPS Logo">
+			<p class="pixel">RPS, Rock Paper Scissors against bot! (with "cool" graphics)</p>
+			<a class=Button href="Projects/rockpaperscissors/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div>
+	
+		<div class="box_of_images">
+			<p>&nbsp</p>
+			<img class="center" src="Images/0.png" width="75%" alt="1-2-1 logo">
+			<p class="pixel">1-2-1, Your average Tic Tac Toe game!</p>
+			<a class=Button href="Projects/1-2-1/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div>
+		
+		<div class="box_of_images">
+			<p>&nbsp</p>
+			<img class="center" width="75%" alt="maze-i-guess logo">
+			<p class="pixel">Maze, i guess...will be updated with more levels and stuff if I feel like it.</p>
+			<a class=Button href="Projects/Maze-i-guess/index.html">Visit it!</a>
+			<p>&nbsp</p>
+		</div> </details>
+
+</body>
+
+<p class="moretitle">Welcome to KS Website</p>
+	<a class=Button href="../index.html">&nbspBack&nbsp</a>
+	<a class=Buttonleft href="navigation.html">&nbspMenu&nbsp</a>
+  <div>
+    <p style="font-size:50px">&nbsp</p>
+</div>

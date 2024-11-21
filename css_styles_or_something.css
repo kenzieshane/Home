@@ -1,0 +1,289 @@
+		body {
+			background-color:white
+		}
+		
+		p {
+  		font-family: "Open Sans";
+		  font-size: 30px;
+		  word-wrap: break-word;
+		}
+		
+		h1 {
+  		font-family: "Open Sans";
+		font-size:60px;
+		}
+
+		.moretitle { font-family: "Open Sans";
+			font-size:200%;
+			position: relative;
+			top:20px;
+			text-align:center;
+			justify-content:center;
+			font-weight: bold;
+			}
+		a {
+  		color: #000000;
+  		font-family: "Open Sans";
+		}
+		
+		.inactive {
+		text-decoration: none;
+		font-family: "Pixelify Sans";
+		font-size: 350%;
+		color:#FFFFFF
+		}
+		
+		.active {
+		text-decoration: none;
+  		color: #808080;
+  		font-size: 350%;
+		font-family: "Pixelify Sans";
+		}
+
+		.Papan_navigasi_atas
+		{
+		background-image: linear-gradient(to right, rgb(72, 72, 255), rgb(115, 151, 250));
+		}
+
+		.dark {
+			color: white;
+			background-color:black
+		}
+		
+		.box_of_images
+		{
+			display: grid;
+			background-image: rgba(255, 255, 255, 0.753);
+		}
+
+		.center
+		{
+			display:block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.pixel
+		{
+			font-family: "Pixelify Sans";
+			text-decoration:"solid";
+			font-size: 180%;
+		}
+
+		.Button {
+			position: absolute;
+	top: 10px;
+	left: 10px;
+  font-family:"Open Sans";
+  font-size:50px;
+  border-radius: 6px;
+  border: none;
+  width: max-content;
+  height:70px;
+  text-decoration:none;
+  text-align:center;
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Buuton {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	font-family:"Open Sans";
+	font-size:50px;
+	border-radius: 6px;
+	border: none;
+	width: max-content;
+	height:70px;
+	text-decoration:none;
+	text-align:center;
+	color: #fff;
+	background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+	 background-origin: border-box;
+	box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+  }
+
+.button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+		
+		.Button:hover {
+			background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+			background-color:#dfdfdf;
+		}
+
+.Buttonleft
+ {			position:absolute;
+            top: 10px;
+            right: 10px;
+			 display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:auto;
+  font-family:"Open Sans";
+  font-size:50px;
+  border-radius: 6px;
+  border: none;
+  width: max-content;
+  height:70px;
+  text-decoration:none;
+  text-align:center;
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Buttonleft:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+		.Buttonleft:hover {
+			background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+			background-color:#dfdfdf;
+		}
+		
+		.flex
+		{
+			display: flex;
+		}
+
+		.list
+		{
+			font-size: 100%;
+		}
+
+		.code
+		{
+			font-family: monospace;
+		}
+
+
+		
+		.scrolling-thing {
+
+		border: 3px solid black;
+		border-radius: 5px;
+		overflow: hidden;
+	  }
+	  
+	  .scroll-text {
+		/* animation properties */
+		-moz-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+		
+		-moz-animation: my-animation 15s linear infinite;
+		-webkit-animation: my-animation 15s linear infinite;
+		animation: my-animation 15s linear infinite;
+	  }
+	  
+	  /* for Firefox */
+	  @-moz-keyframes my-animation {
+		from { -moz-transform: translateX(100%); }
+		to { -moz-transform: translateX(-100%); }
+	  }
+	  
+	  /* for Chrome */
+	  @-webkit-keyframes my-animation {
+		from { -webkit-transform: translateX(100%); }
+		to { -webkit-transform: translateX(-100%); }
+	  }
+	  
+	  @keyframes my-animation {
+		from {
+		  -moz-transform: translateX(100%);
+		  -webkit-transform: translateX(100%);
+		  transform: translateX(100%);
+		}
+		to {
+		  -moz-transform: translateX(-100%);
+		  -webkit-transform: translateX(-100%);
+		  transform: translateX(-100%);
+		}
+	}
+	
+
+	.centerx {
+	margin:auto;
+  	text-align:center;
+  	width:50%
+}
+
+	.links {
+		background-color: #dfdfdf;
+	}
+
+	.project_media h1 {    
+		text-align:center;
+		position:absolute;
+		top:50%;
+		width:100%;
+		transform:translate(0%,-50%);
+		-webkit-transform:translate(0%,-50%);
+		color:#FFFFFF;
+		font-family:"Open Sans";
+		text-transform:uppercase;
+		display:none;
+	}
+	
+	.project_container:hover img {
+		filter: brightness(0.3);
+		-webkit-filter:brightness(0.3);
+		-moz-filter:brightness(0.3);
+	}
+	
+	.project_container:hover h1 {
+		display:block;
+	}
+
+	.ghref
+	{position:absolute;
+	right:10px;
+	background-color: #dfdfdf;}
+
+	.bumuton {
+		position: absolute;
+		right:10px;
+		font-family:"Open Sans";
+		font-size: 30px;
+		border-radius: 6px;
+		border: none;
+		width: max-content;
+		height:40px;
+		text-decoration:none;
+		text-align:center;
+		color: #fff;
+		background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+		 background-origin: border-box;
+		box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+		user-select: none;
+		-webkit-user-select: none;
+		touch-action: manipulation;
+	  }
+	
+	.bumuton:focus {
+	  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+	  outline: 0;
+	}
+			
+			.bumuton:hover {
+				background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+				background-color:#dfdfdf;
+			}
+	
+	.block {background:rgba(#ffffff 100%);
+	te}
