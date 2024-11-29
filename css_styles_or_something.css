@@ -1,5 +1,6 @@
 		body {
 			background-color:white
+			
 		}
 		
 		p {
@@ -29,6 +30,18 @@
     font-size:20px;
     background-color: #DDDDDD;
     }
+    .math
+    {
+    font-family: "Serif";
+    background-color: #EEFFEE;
+    		   margin-right: 2%;
+  margin-left: 2%;
+    }
+    var
+    {
+     font-family: "Serif";
+     font-size: 30px;
+    }
     .blogpreview
     {
     font-size:25px;
@@ -37,7 +50,7 @@
     }
     .blogindex
     {
-    background-image: #FFFFFF;
+    background-color: #FFFFFF;
     }
 		.moretitle { font-family: "Open Sans";
 			font-size:200%;
@@ -341,4 +354,26 @@
 .middle
 {
 	text-align:center;
+}
+
+// From dev.to
+
+// Fraction
+.fraction {
+  display: inline-block;
+  vertical-align: middle; 
+  margin: 0 0.2em 0.4ex;
+  text-align: center;
+  & > span{
+    display: block;
+    padding-top: 0.15em;
+  }
+  & span{
+    &.fdn{
+      border-top: thin solid black;
+    }
+    &.bar{
+      display: none;
+    }
+  }
 }
