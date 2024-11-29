@@ -26,7 +26,18 @@
     }
     .notice
     {
+    font-size:20px;
     background-color: #DDDDDD;
+    }
+    .blogpreview
+    {
+    font-size:25px;
+    background-color: #EEEEEE;
+    color: #666666;
+    }
+    .blogindex
+    {
+    background-image: #FFFFFF;
     }
 		.moretitle { font-family: "Open Sans";
 			font-size:200%;
@@ -40,7 +51,10 @@
   		color: #000000;
   		font-family: "Open Sans";
 		}
-		
+		.nolink
+		{
+		text-decoration: none;
+		}
 		.inactive {
 		text-decoration: none;
 		font-family: "Pixelify Sans";
