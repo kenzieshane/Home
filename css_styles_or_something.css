@@ -1,4 +1,4 @@
-		body {
+  		body {
 			background-color:white
 			
 		}
@@ -13,11 +13,13 @@
 		  word-wrap: break-word;
 		   margin-right: 2%;
   margin-left: 2%;
+  color:#000000
 		}
 		
 		h1 {
   		font-family: "Open Sans";
 		font-size:60px;
+		color: #000000
 		}
 		
 		h2 {
