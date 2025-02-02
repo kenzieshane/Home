@@ -1,0 +1,305 @@
+    pr
+{
+color:red
+}  		
+
+    pb
+{
+color:blue
+}  		
+
+
+        body {
+			background-color:black
+			
+		}
+		
+		sup
+		{
+		font-size:15;
+		}
+		p {
+  		font-family: "Open Sans Condensed";
+		  font-size: 30px;
+		  word-wrap: break-word;
+		   margin-right: 2%;
+  margin-left: 2%;
+  color:#FFFFFF;
+text-align: center
+		}
+		
+		h1 {
+  		font-family: "Open Sans Condensed";
+		font-size:60px;
+		color: #FFFFFF
+		}
+		
+		h2 {
+  		font-family: "Open Sans Condensed";
+		font-size:40px;
+		color: #888888;
+		}
+    img {
+    width: 23%;
+	box-shadow: 10px 10px 5px grey;
+    }
+    .notice
+    {
+    font-size:20px;
+    background-image: linear-gradient(180deg, #222222 0%, #000000 100%);
+    border-radius: 20px;
+    text-align: left;
+    }
+    .math
+    {
+    font-family: "Serif";
+    font-size:30px;
+    background-color: #EEFFEE;
+    		   margin-right: 2%;
+  margin-left: 2%;
+    }
+    var
+    {
+     font-family: "Serif";
+     font-size: 30px;
+    }
+    .blogpreview
+    {
+    font-size:25px;
+    background-color: #EEEEEE;
+    color: #666666;
+    }
+    .blogindex
+    {
+    background-color: #FFFFFF;
+    }
+		.moretitle { font-family: "Open Sans Condensed";
+			font-size:200%;
+			position: relative;
+			top:20px;
+			text-align:center;
+			justify-content:center;
+			font-weight: bold;
+			}
+		a {
+  		color: #FFFFFF;
+  		font-family: "Open Sans Condensed";
+		}
+		.nolink
+		{
+		text-decoration: none;
+		}
+
+
+		.center
+		{
+			display:block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.pixel
+		{
+			font-family: "Pixelify Sans";
+			text-decoration:"solid";
+			font-size: 180%;
+		}
+
+		.Button {
+			position: absolute;
+	top: 10px;
+	left: 10px;
+  font-family:"Open Sans Condensed";
+  font-size:50px;
+  border-radius: 6px;
+  border: none;
+  width: max-content;
+  height:70px;
+  text-decoration:none;
+  text-align:center;
+  color: #fff;
+  background: linear-gradient(180deg, #222222 0%, #000000 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Buuton {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	font-family:"Open Sans Condensed";
+	font-size:50px;
+	border-radius: 6px;
+	border: none;
+	width: max-content;
+	height:70px;
+	text-decoration:none;
+	text-align:center;
+	color: #fff;
+	background: linear-gradient(180deg, #DDDDDD 0%, #222222 100%);
+	 background-origin: border-box;
+	box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+  }
+
+.button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+		
+		.Button:hover {
+			background:linear-gradient(to bottom, #444444 5%, #000000 100%);
+			background-color:#dfdfdf;
+		}
+
+.Buttonleft
+ {			position:absolute;
+            top: 10px;
+            right: 10px;
+			 display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:auto;
+  font-family:"Open Sans Condensed";
+  font-size:50px;
+  border-radius: 6px;
+  border: none;
+  width: max-content;
+  height:70px;
+  text-decoration:none;
+  text-align:center;
+  color: #fff;
+  background: linear-gradient(180deg, #222222 0%, #000000 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Buttonleft:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+		.Buttonleft:hover {
+			background:linear-gradient(to bottom, #444444 5%, #000000 100%);
+			background-color:#dfdfdf;
+		}
+		
+		.flex
+		{
+			display: flex;
+		}
+
+		.list
+		{
+			font-size: 100%;
+		}
+
+		.code
+		{
+			font-family: monospace;
+		}
+
+	.centerx {
+	margin:auto;
+  	text-align:center;
+  	width:95%
+}
+
+	.links {
+		color: #0000FF;
+		text-decoration: underline;
+	}
+
+
+	.ghref
+	{position:absolute;
+	right:10px;
+	background-color: #dfdfdf;}
+
+	.bumuton {
+		position: absolute;
+		right:10px;
+		font-family:"Open Sans Condensed";
+		font-size: 30px;
+		border-radius: 6px;
+		border: none;
+		width: max-content;
+		height:40px;
+		text-decoration:none;
+		text-align:center;
+		color: #fff;
+		background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+		 background-origin: border-box;
+		box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+		user-select: none;
+		-webkit-user-select: none;
+		touch-action: manipulation;
+	  }
+	
+	.bumuton:focus {
+	  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+	  outline: 0;
+	}
+			
+			.bumuton:hover {
+				background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+				background-color:#dfdfdf;
+			}
+	
+	.block {background:rgba(#ffffff 100%);
+	te}
+	
+// From dev.to
+
+// Fraction
+.fraction {
+  display: inline-block;
+  vertical-align: middle; 
+  margin: 0 0.2em 0.4ex;
+  text-align: center;
+  & > span{
+    display: block;
+    padding-top: 0.15em;
+  }
+  & span{
+    &.fdn{
+      border-top: thin solid black;
+    }
+    &.bar{
+      display: none;
+    }
+  }
+}
+
+.real_button {
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.real_button:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.real_button:active {
+	position:relative;
+	top:1px;
+}
+
