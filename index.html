@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Windows 8 Metro Style · Placeholder App</title>
+    <!-- Windows 8 Metro style UI: flat, clean, typography-driven, vibrant tiles -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000000;  /* dark background like modern start screen */
+            font-family: 'Segoe UI', 'Segoe UI Semilight', 'Segoe WP', 'Roboto', 'Arial', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* main metro container – mimics Windows 8/8.1 Start Screen aesthetic */
+        .metro-app {
+            min-height: 100vh;
+            background: radial-gradient(circle at 20% 30%, #000000, #000000);
+            padding: 28px 32px 48px 32px;
+        }
+
+        /* header area with user greeting & subtle live tile placeholder */
+        .metro-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            margin-bottom: 36px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid rgba(255,255,255,0.15);
+        }
+
+        .app-title h1 {
+            font-size: 3.2rem;
+            font-weight: 300;
+            letter-spacing: -0.5px;
+            color: #FFFFFF;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        }
+
+        .app-title p {
+            font-size: 0.85rem;
+            font-weight: 400;
+            color: #B3B3B3;
+            margin-top: 6px;
+            letter-spacing: 0.3px;
+        }
+
+        .user-badge {
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(4px);
+            border-radius: 0px;
+            padding: 8px 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #F0F0F0;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: 0.2s;
+        }
+
+        /* tile grid – metro hallmark: clean rectangular blocks */
+        .tile-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 24px;
+            margin-top: 20px;
+        }
+
+        /* base tile style: flat, sharp corners (metro loves squares) */
+        .metro-tile {
+            background: #2677D4;  /* signature windows blue fallback */
+            border-radius: 0px;    /* absolutely sharp corners – metro style */
+            padding: 24px 20px 28px 20px;
+            transition: all 0.2s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            cursor: pointer;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            min-height: 180px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* accent color variations per tile: vibrant metro palette */
+        .metro-tile[data-color="blue"] { background: #2D7FDB; }
+        .metro-tile[data-color="green"] { background: #107C10; }
+        .metro-tile[data-color="orange"] { background: #D83B01; }
+        .metro-tile[data-color="purple"] { background: #6A2C9F; }
+        .metro-tile[data-color="teal"] { background: #008282; }
+        .metro-tile[data-color="pink"] { background: #e81111; }
+        .metro-tile[data-color="amber"] { background: #FF8C00; }
+
+        /* double-width tile effect — special featured tile */
+        .metro-tile.double-width {
+            grid-column: span 2;
+        }
+
+        /* tile icon area */
+        .tile-icon {
+            font-size: 2.8rem;
+            margin-bottom: 26px;
+        }
+
+        .tile-title {
+            font-size: 1.8rem;
+            font-weight: 300;
+            letter-spacing: -0.3px;
+            color: white;
+            margin-bottom: 8px;
+            word-break: break-word;
+        }
+
+        .tile-subtitle {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: rgba(255,255,255,0.8);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .tile-description {
+            font-size: 0.8rem;
+            margin-top: 12px;
+            color: rgba(255,255,255,0.7);
+            font-weight: 400;
+            line-height: 1.4;
+        }
+
+        /* small badge for notification simulation */
+        .notification-badge {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            background: white;
+            color: #1e1e1e;
+            font-weight: bold;
+            font-size: 0.7rem;
+            border-radius: 0px;
+            padding: 2px 10px;
+            min-width: 24px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+
+        /* hover effect: subtle lift + brightness */
+        .metro-tile:hover {
+            transform: translateY(-4px);
+            filter: brightness(1.05);
+            box-shadow: 0 16px 24px rgba(0,0,0,0.3);
+        }
+
+        /* footer & placeholder bottom bar (like taskbar hints) */
+        .metro-statusbar {
+            margin-top: 56px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 28px;
+            font-size: 0.8rem;
+            color: #AAAAAA;
+        }
+
+        .live-tile-sim {
+            display: flex;
+            gap: 20px;
+        }
+
+        .live-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0,0,0,0.4);
+            padding: 5px 12px;
+            border-radius: 30px;
+        }
+
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #3CDD6E;
+            border-radius: 50%;
+            animation: pulse 1.4s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.4; transform: scale(0.9);}
+            100% { opacity: 1; transform: scale(1.2);}
+        }
+
+        /* interactive simulation panel (light weight) */
+        .click-feedback {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: #202020dd;
+            backdrop-filter: blur(8px);
+            padding: 8px 20px;
+            border-radius: 40px;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 500;
+            pointer-events: none;
+            z-index: 999;
+            border-left: 4px solid #2D7FDB;
+            transition: opacity 0.2s;
+            font-family: monospace;
+        }
+
+        /* responsive: smaller screens keep readability */
+        @media (max-width: 640px) {
+            .metro-app {
+                padding: 16px;
+            }
+            .tile-title {
+                font-size: 1.4rem;
+            }
+            .metro-tile.double-width {
+                grid-column: span 1;
+            }
+            .app-title h1 {
+                font-size: 1.6rem;
+            }
+        }
+
+        /* Example of a subtle "live tile" text animation on certain tile */
+        .animate-live {
+            transition: opacity 0.2s;
+        }
+
+        /* simple loader state simulation for demo */
+        .demo-message {
+            font-size: 0.7rem;
+            color: #ccc;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="metro-app">
+    <!-- header metro style -->
+    <div class="metro-header">
+        <div class="app-title">
+            <h1>KenzieShane &lt;/media&gt;</h1>
+        </div>
+    </div>
+<a href="about.html">
+    <div class="tile-grid">
+        <div class="metro-tile" data-color="blue" id="weatherTile">
+            <div class="tile-icon" style="color:white">&#9432;</div>
+            <div class="tile-title">About</div>
+            <div class="tile-subtitle">TECH PASSIONATE HOOMAN</div>
+            <div class="tile-description" id="weatherTemp">Explore who i am deeper ></div>
+        </div>
+    </a>
+<a href="projects.html">
+        <div class="metro-tile" data-color="orange" id="photosTile">
+            <div class="tile-icon" style="color:white">&#9004;</div>
+            <div class="tile-title">Projects</div>
+            <div class="tile-subtitle">THAT I MADE</div>
+            <div class="tile-description">I'll amaze and dissapoint you.</div>
+            <div class="notification-badge" id="weatherBadge">WIP</div>
+        </div>
+    </a>
+<a href="contact.html">
+        <div class="metro-tile" data-color="purple" id="mailTile">
+            <div class="tile-icon" style="color:white">&phone;</div>
+            <div class="tile-title">Contact me</div>
+            <div class="tile-subtitle">Work & Personal</div>
+            <div class="tile-description">I have social media too!</div>
+        </div>
+    </a>
+       <a href="https://kenzieshane.itch.io">
+        <div class="metro-tile" data-color="green">
+            <div class="tile-icon" style="color:white">&#9055;</div>
+            <div class="tile-title">Games</div>
+            <div class="tile-subtitle">That i made to be enjoyed</div>
+            <div class="tile-description">All were pretty much open source.</div>
+        </div>
+    </a>
+
+        <a href="https://books.kenzieshane.my.id">
+        <div class="metro-tile" data-color="pink">
+            <div class="tile-icon" style="color:white">&#10081;</div>
+            <div class="tile-title">Books</div>
+            <div class="tile-subtitle">That i made to be read</div>
+            <div class="tile-description">Yeah, still an amateur though</div>
+        </div>
+    </a>
+    </div>
+
+    <div class="metro-statusbar">
+        <div>
+            2026(c) Kenzie Shane Setiawan
+        </div>
+    </div>
+</div>
+
+<div id="feedbackMsg" class="click-feedback" style="opacity: 0;">✨ Tile clicked · placeholder demo</div>
+</body>
+</html>
