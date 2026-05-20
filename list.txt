@@ -1,0 +1,12 @@
+ { "id": 1, "where":"1.txt", "name": "Exit Music for a Film", "author": "Radiohead", "genre": "Alternative", "rating": 4.7, "lyrics": "Wake from your sleep...\nThe drying of your tears..." },
+            { "id": 2, "where":"2.txt","name": "Hurt", "author": "Johnny Cash", "genre": "Country", "rating": 4.9, "lyrics": "I hurt myself today...\nTo see if I still feel..." },
+            { "id": 3, "where":"3.txt","name": "Teardrop", "author": "Massive Attack", "genre": "Trip-Hop", "rating": 4.5, "lyrics": "Love, love is a verb...\nLove is a doing word..." },
+            { "id": 4, "where":"4.txt","name": "No Surprises", "author": "Radiohead", "genre": "Alternative", "rating": 4.6, "lyrics": "A heart that's full up like a landfill..." },
+            { "id": 5, "where":"5.txt","name": "Fake Empire", "author": "The National", "genre": "Indie Rock", "rating": 4.4, "lyrics": "Stay out super late tonight...\nPicking apples, making pies..." },
+            { "id": 6, "where":"6.txt","name": "Karma Police", "author": "Radiohead", "genre": "Alternative", "rating": 4.8, "lyrics": "Karma police\nArrest this man..." },
+            { "id": 7, "where":"7.txt","name": "Closer", "author": "Nine Inch Nails", "genre": "Industrial", "rating": 4.3, "lyrics": "You let me violate you\nYou let me desecrate you..." },
+            { "id": 8, "where":"8.txt","name": "Breathe", "author": "Pink Floyd", "genre": "Progressive Rock", "rating": 4.9, "lyrics": "Breathe, breathe in the air\nDon't be afraid to care..." },
+            { "id": 9, "where":"9.txt","name": "Everlong", "author": "Foo Fighters", "genre": "Rock", "rating": 4.7, "lyrics": "Hello\nI've waited here for you..." },
+            { "id": 10, "where":"10.txt","name": "Zombie", "author": "The Cranberries", "genre": "Alternative Rock", "rating": 4.6, "lyrics": "Another head hangs lowly\nChild is slowly taken..." },
+            { "id": 11, "where":"11.txt","name": "Creep", "author": "Radiohead", "genre": "Alternative", "rating": 4.8, "lyrics": "I'm a creep\nI'm a weirdo..." },
+            { "id": 12, "where":"12.txt","name": "Smells Like Teen Spirit", "author": "Nirvana", "genre": "Grunge", "rating": 4.9, "lyrics": "Load up on guns\nBring your friends..." }
